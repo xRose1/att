@@ -9,7 +9,7 @@ wget -O - http://bin.entware.net/armv7sf-k2.6/installer/generic.sh |sh
 cat > /jffs/scripts/services-start << EOF
 #!/bin/sh
 
-ln -nsf /jffs/opt /tmp/opt
+ln -nsf /jffs/opt /tmp/
 
 /opt/etc/init.d/rc.unslung start
 
